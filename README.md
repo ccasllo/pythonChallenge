@@ -1,9 +1,9 @@
-# pythonChallenge
+# pythonChallenge por Carlos Alberto Castillo
 Prueba Técnica python
 
 desarrollo creado para dar solución a la prueba https://gitlab.sg-zinobe.com/oscar.mendez/challenge-python-l1
 
-Contenido:
+# Contenido:
 
 1. Archivo Diseño_de_La_Solución.pdf diagrama del diseño de la solución. 
 2. Evidencias.pdf Captura de pantalla de los resultados de la ejecución del proceso
@@ -12,11 +12,11 @@ Contenido:
 5. base.db: base de datos SqLite creada en el proceso.
 6. pythonchallenge.py, script de ejecución del proceso. 
 
-para ejecutar el proceso se puede lanzar con los siguientes parametros
+# para ejecutar el proceso se puede lanzar con los siguientes parametros
 -L para generar Log
 -T para generar test unitarios por cada función. 
 
-el scritp se debe ejecutar de la siguiente manera: 
+# El scritp se debe ejecutar de la siguiente manera: 
 
 1. para generar log:
   
