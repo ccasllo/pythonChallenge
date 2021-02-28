@@ -155,6 +155,7 @@ if __name__ == "__main__":
     regiones = extraeRegiones()
     datos=creaDataFrame(regiones)
     resultadoSqlLite(datos,'archivo.json')
+    print(funcionesPandas(datos))
     if unitTest:
       import doctest
       doctest.testmod(verbose=True)
