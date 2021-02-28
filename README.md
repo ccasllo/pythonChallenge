@@ -5,4 +5,5 @@ desarrollo creado para dar solución a la prueba https://gitlab.sg-zinobe.com/os
 
 Contenido:
 
-1. archivo Diseño_de_La_Solución.pdf 
+1. Archivo Diseño_de_La_Solución.pdf diagrama del diseño de la solución. 
+2. 
