@@ -1,0 +1,31 @@
+2021-02-28 19:35:29,385 : DEBUG : Inicio  2021-02-28 19:35:29:385072
+2021-02-28 19:35:29,400 : DEBUG : Starting new HTTPS connection (1): restcountries-v1.p.rapidapi.com:443
+2021-02-28 19:35:30,250 : DEBUG : https://restcountries-v1.p.rapidapi.com:443 "GET /all HTTP/1.1" 200 35811
+2021-02-28 19:35:30,256 : DEBUG : Se encontraron las siguientes regiones: {'', 'Polar', 'Europe', 'Africa', 'Asia', 'Oceania', 'Americas'}
+2021-02-28 19:35:30,256 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:31,137 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Polar HTTP/1.1" 200 None
+2021-02-28 19:35:31,158 : DEBUG : region: Polar,pais:Antarctica,idioma:English,SHA1:649df08a448ee3fa90f3746baaf6b0907df42c91,tiempo0.902046 
+2021-02-28 19:35:31,161 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:31,692 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Europe HTTP/1.1" 200 None
+2021-02-28 19:35:31,823 : DEBUG : region: Europe,pais:Åland Islands,idioma:Swedish,SHA1:04a422d38c95415cece1ac86e1ad2a1030048c03,tiempo0.662641 
+2021-02-28 19:35:31,838 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:32,362 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Africa HTTP/1.1" 200 None
+2021-02-28 19:35:32,509 : DEBUG : region: Africa,pais:Algeria,idioma:Arabic,SHA1:af4f4762f9bd3f0f4a10caf5b6e63dc4ce543724,tiempo0.67104 
+2021-02-28 19:35:32,509 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:33,064 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Asia HTTP/1.1" 200 None
+2021-02-28 19:35:33,227 : DEBUG : region: Asia,pais:Afghanistan,idioma:Pashto,SHA1:cc50b3253c9ec78d83c0178cbd9aff6a66d8ced8,tiempo0.717417 
+2021-02-28 19:35:33,242 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:33,643 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Oceania HTTP/1.1" 200 None
+2021-02-28 19:35:33,666 : DEBUG : region: Oceania,pais:American Samoa,idioma:English,SHA1:649df08a448ee3fa90f3746baaf6b0907df42c91,tiempo0.423107 
+2021-02-28 19:35:33,666 : DEBUG : Starting new HTTPS connection (1): restcountries.eu:443
+2021-02-28 19:35:34,229 : DEBUG : https://restcountries.eu:443 "GET /rest/v2/region/Americas HTTP/1.1" 200 None
+2021-02-28 19:35:34,367 : DEBUG : region: Americas,pais:Anguilla,idioma:English,SHA1:649df08a448ee3fa90f3746baaf6b0907df42c91,tiempo0.701352 
+2021-02-28 19:35:34,445 : DEBUG : Tabla Pandas: 
+         City Name                                  Languaje    Region      Time
+0      Antarctica  649df08a448ee3fa90f3746baaf6b0907df42c91     Polar  0.902046
+1   Åland Islands  04a422d38c95415cece1ac86e1ad2a1030048c03    Europe  0.662641
+2         Algeria  af4f4762f9bd3f0f4a10caf5b6e63dc4ce543724    Africa  0.671040
+3     Afghanistan  cc50b3253c9ec78d83c0178cbd9aff6a66d8ced8      Asia  0.717417
+4  American Samoa  649df08a448ee3fa90f3746baaf6b0907df42c91   Oceania  0.423107
+5        Anguilla  649df08a448ee3fa90f3746baaf6b0907df42c91  Americas  0.701352
+2021-02-28 19:35:34,667 : DEBUG : crea Json: archivo.json
